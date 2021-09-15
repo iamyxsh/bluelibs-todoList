@@ -1,0 +1,42 @@
+{
+  "en": {
+    "management": {
+      "users": {
+        "fields": {
+          "_id": "ID",
+          "profile": "Profile",
+          "profile.firstName": "Profile — First Name",
+          "profile.lastName": "Profile — Last Name",
+          "isEnabled": "Is Enabled",
+          "createdAt": "Created At",
+          "password": "password",
+          "password_description": "This is the model that stores password authentication data such as emails, hashed password, salt and other security related data",
+          "isDeleted": "isDeleted",
+          "isDeleted_description": "This field is used to identify if this object has been soft-deleted",
+          "fullName": "Full Name",
+          "email": "Email",
+          "roles": "Roles"
+        },
+        "menu": {
+          "title": "Users"
+        },
+        "list": {
+          "header": "Users List",
+          "create_btn": "New User"
+        },
+        "create": {
+          "header": "Create User"
+        },
+        "edit": {
+          "header": "Edit User"
+        },
+        "view": {
+          "header": "View User"
+        },
+        "delete_confirmation": "You have deleted the User",
+        "create_confirmation": "You successfully added a new User",
+        "edit_confirmation": "You successfully edited the User"
+      }
+    }
+  }
+}
